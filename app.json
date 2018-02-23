@@ -31,7 +31,7 @@
   "image": "heroku/python",
   "buildpacks": [
     {
-      "url": "git://github.com/mezis/heroku-buildpack-tex.git"
+      "url": "git://github.com/mezis/heroku-buildpack-tex.git",
       "url": "herouk/nodejs",
       "url": "herouk/python",
     }

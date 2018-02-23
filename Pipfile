@@ -7,9 +7,7 @@ name = "pypi"
 
 [packages]
 
-jupyter = "*"
 jupyterlab = "*"
-jupyterhub = "*"
 "s3contents" = "*"
 
 

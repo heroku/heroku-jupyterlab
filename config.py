@@ -2,9 +2,16 @@ import os
 
 from s3contents import S3ContentsManager
 
-AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
-AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
-S3_BUCKET_NAME = os.environ['S3_BUCKET_NAME']
+try:
+    AWS_ACCESS_KEY_ID = os.environ['AWS_ACCESS_KEY_ID']
+    AWS_SECRET_ACCESS_KEY = os.environ['AWS_SECRET_ACCESS_KEY']
+    S3_BUCKET_NAME = os.environ['S3_BUCKET_NAME']
+except NameError:
+    # Bucketeer addon.
+    AWS_ACCESS_KEY_ID = os.environ['BUCKETEER_AWS_ACCESS_KEY_ID']
+    AWS_SECRET_ACCESS_KEY = os.environ['BUCKETEER_AWS_SECRET_ACCESS_KEY']
+    S3_BUCKET_NAME = os.environ['BUCKETEER_BUCKET_NAME']
+
 
 # c = get_config()
 c.NotebookApp.contents_manager_class = S3ContentsManager

@@ -8,6 +8,8 @@ name = "pypi"
 [packages]
 
 jupyterlab = "*"
+dask = "*"
+toolz = "*"
 "s3contents" = "*"
 
 

@@ -21,7 +21,8 @@
     },
     "S3_BUCKET_NAME": {
       "description": "Your AWS S3 Bucket Name."
-    },
+    }
+  },
   "formation": {
     "web": {
       "quantity": 1,
@@ -31,8 +32,12 @@
   "image": "heroku/python",
   "buildpacks": [
     {
-      "url": "git://github.com/mezis/heroku-buildpack-tex.git",
-      "url": "herouk/nodejs",
+      "url": "git://github.com/mezis/heroku-buildpack-tex.git"
+    },
+    {
+      "url": "herouk/nodejs"
+    },
+    {
       "url": "herouk/python"
     }
   ]

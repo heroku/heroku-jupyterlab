@@ -11,6 +11,7 @@ jupyterlab = "*"
 dask = "*"
 toolz = "*"
 "s3contents" = "*"
+ipython = "*"
 
 
 [dev-packages]

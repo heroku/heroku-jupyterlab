@@ -2,6 +2,13 @@
 
 This application runs a JupyterLab instance on Heroku, backed by Amazon S3.
 
+Deploy to Heroku
+----------------
+
+You can deploy this application to Heroku with this simple button:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 
 Environment Variables
 ---------------------

@@ -1,0 +1,1 @@
+web: jupyter-lab --config=./config.py --port $PORT

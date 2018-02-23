@@ -3,7 +3,7 @@
   "description": "A hosted JupyterLab environment, backed by Amazon S3 (and Heroku).",
   "keywords": [
     "productivity",
-    "datascience",
+    "datascience"
   ],
   "website": "https://github.com/jupyterlab/jupyterlab",
   "repository": "https://github.com/heroku/heroku-jupyterlab",

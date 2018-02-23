@@ -11,7 +11,8 @@
   "success_url": "/",
   "env": {
     "PASSWORD": {
-      "description": "(optional) password for the environment."
+      "description": "(optional) password for the environment.",
+      "required": false
     },
     "AWS_ACCESS_KEY_ID": {
       "description": "Your AWS Access Key ID."

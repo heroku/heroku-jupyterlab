@@ -11,16 +11,16 @@
   "success_url": "/",
   "env": {
     "PASSWORD": {
-      "description": "(optional) password for the environment.",
+      "description": "(optional) password for the environment."
     },
     "AWS_ACCESS_KEY_ID": {
-      "description": "Your AWS Access Key ID.",
+      "description": "Your AWS Access Key ID."
     },
     "AWS_SECRET_ACCESS_KEY": {
-      "description": "Your AWS Secret Access Key.",
+      "description": "Your AWS Secret Access Key."
     },
     "S3_BUCKET_NAME": {
-      "description": "Your AWS S3 Bucket Name.",
+      "description": "Your AWS S3 Bucket Name."
     },
   "formation": {
     "web": {

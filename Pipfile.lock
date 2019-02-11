@@ -454,7 +454,7 @@
             "hashes": [
                 "sha256:ab8904b0e4881dd3be0e030e39035d9f2ea45e162bb8bee88faf576df9897e47"
             ],
-            "version": "==0.2.2"
+            "version": "==0.1.12"
         },
         "s3fs": {
             "hashes": [

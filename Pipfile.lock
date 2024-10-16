@@ -3,19 +3,6 @@
         "hash": {
             "sha256": "f513876d2a5de66c2310fb7389d3893a164a058ef4ca3ab3f99642deeebc62ae"
         },
-        "host-environment-markers": {
-            "implementation_name": "cpython",
-            "implementation_version": "3.6.4",
-            "os_name": "posix",
-            "platform_machine": "x86_64",
-            "platform_python_implementation": "CPython",
-            "platform_release": "17.4.0",
-            "platform_system": "Darwin",
-            "platform_version": "Darwin Kernel Version 17.4.0: Sun Dec 17 09:19:54 PST 2017; root:xnu-4570.41.2~1/RELEASE_X86_64",
-            "python_full_version": "3.6.4",
-            "python_version": "3.6",
-            "sys_platform": "darwin"
-        },
         "pipfile-spec": 6,
         "requires": {},
         "sources": [
@@ -511,13 +498,21 @@
         },
         "tornado": {
             "hashes": [
-                "sha256:92b7ca81e18ba9ec3031a7ee73d4577ac21d41a0c9b775a9182f43301c3b5f8e",
-                "sha256:b36298e9f63f18cad97378db2222c0e0ca6a55f6304e605515e05a25483ed51a",
-                "sha256:ab587996fe6fb9ce65abfda440f9b61e4f9f2cf921967723540679176915e4c3",
-                "sha256:5ef073ac6180038ccf99411fe05ae9aafb675952a2c8db60592d5daf8401f803",
-                "sha256:6d14e47eab0e15799cf3cdcc86b0b98279da68522caace2bd7ce644287685f0a"
+                "sha256:163b0aafc8e23d8cdc3c9dfb24c5368af84a81e3364745ccb4427669bf84aec8",
+                "sha256:25486eb223babe3eed4b8aecbac33b37e3dd6d776bc730ca14e1bf93888b979f",
+                "sha256:454db8a7ecfcf2ff6042dde58404164d969b6f5d58b926da15e6b23817950fc4",
+                "sha256:613bf4ddf5c7a95509218b149b555621497a6cc0d46ac341b30bd9ec19eac7f3",
+                "sha256:6d5ce3437e18a2b66fbadb183c1d3364fb03f2be71299e7d10dbeeb69f4b2a14",
+                "sha256:8ae50a504a740365267b2a8d1a90c9fbc86b780a39170feca9bcc1787ff80842",
+                "sha256:92d3ab53183d8c50f8204a51e6f91d18a15d5ef261e84d452800d4ff6fc504e9",
+                "sha256:a02a08cc7a9314b006f653ce40483b9b3c12cda222d6a46d4ac63bb6c9057698",
+                "sha256:b24b8982ed444378d7f21d563f4180a2de31ced9d8d84443907a0a64da2072e7",
+                "sha256:d9a566c40b89757c9aa8e6f032bcdb8ca8795d7c1a9762910c722b1635c9de4d",
+                "sha256:e2e20b9113cd7293f164dc46fffb13535266e713cdb87bd2d15ddb336e96cfc4"
             ],
-            "version": "==4.5.3"
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
+            "version": "==6.4.1"
         },
         "traitlets": {
             "hashes": [
